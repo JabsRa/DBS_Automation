@@ -91,9 +91,3 @@ You can specify the test class or even a specific test method using the followin
 mvn -Dtest=LoginTest#testLoginSuccess test
 ```
 
-4. **Configure ChromeDriver**:
-
-   Make sure the correct path to `chromedriver.exe` is set in your `LoginTest.java` file:
-
-   ```java
-   System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
