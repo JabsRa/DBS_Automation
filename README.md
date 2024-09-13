@@ -1,4 +1,4 @@
-# Selenium JUNIT Login Test Project
+# Selenium Login Test Project
 
 This project is an automated test suite for the login functionality on [The Internet](https://the-internet.herokuapp.com/login) website, using Selenium WebDriver and JUnit. The project follows the **Page Object Model (POM)** pattern to separate the test logic from the interaction logic with the webpage.
 
