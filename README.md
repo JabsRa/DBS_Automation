@@ -57,7 +57,40 @@ The project consists of the following components:
 
     If you're not using Maven, download the JAR files for **JUnit** and **Selenium WebDriver** and add them to your project's build path.
 
-3. **Configure ChromeDriver**:
+## Running the Tests
+
+You can run the test cases using either an IDE like IntelliJ/Eclipse or via the command line using Maven.
+
+### Using IntelliJ IDEA or Eclipse
+
+1. Open the project in your IDE.
+2. Navigate to the `LoginTest.java` file in the `runners` package.
+3. Run all tests by clicking the **run** button next to the class definition, or run a specific test by clicking the **run** button next to the method definition.
+
+### Running Tests via Maven
+
+1. Open a terminal and navigate to the root directory of the project.
+2. Run the following command to execute all tests:
+
+    ```bash
+    mvn test
+    ```
+
+### Running a Specific Test
+
+#### In IntelliJ/Eclipse:
+
+1. Right-click on the test method `testLoginSuccess()` inside `LoginTest.java`.
+2. Select **Run** to execute the individual test.
+
+#### Using Maven:
+
+You can specify the test class or even a specific test method using the following command:
+
+```bash
+mvn -Dtest=LoginTest#testLoginSuccess test
+
+4. **Configure ChromeDriver**:
 
    Make sure the correct path to `chromedriver.exe` is set in your `LoginTest.java` file:
 
