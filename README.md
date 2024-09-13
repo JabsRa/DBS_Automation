@@ -89,6 +89,7 @@ You can specify the test class or even a specific test method using the followin
 
 ```bash
 mvn -Dtest=LoginTest#testLoginSuccess test
+```
 
 4. **Configure ChromeDriver**:
 
