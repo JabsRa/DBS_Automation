@@ -33,7 +33,7 @@ The project consists of the following components:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/selenium-login-test.git
+    git clone https://github.com/JabsRa/DBS_Automation.git
     ```
 
 2. **Install dependencies**:
